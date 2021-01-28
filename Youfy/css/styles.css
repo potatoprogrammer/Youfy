@@ -1,0 +1,107 @@
+h1 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: black;
+}
+
+h2 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+.firsth1 {
+  font-size: 3.5rem;
+}
+
+.container-fluid {
+  padding: 0.2% 15%;
+}
+
+.navbar-brand{
+  color: black;
+  font-weight: 900;
+  font-family: "Manrope";
+  font-size: 1.5rem;
+}
+
+.nav-link{
+  color: black;
+  font-family: "Manrope";
+  font-size: 0.8rem;
+}
+
+.hero {
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+.title-text{
+  padding-top: 5%;
+}
+
+.get-btn{
+  background-color: #8C30F5;
+  color: white;
+}
+
+.secondaryh1 {
+  padding-top: 15%;
+}
+
+.purplebox{
+  position: relative;
+  background-color: #8C30F5;
+  height: 500px;
+}
+
+.bottom-msg{
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 2.5rem;
+}
+
+.bottom-box{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+}
+
+.bottom-btn {
+  position: absolute;
+  background-color: white;
+  color: #8C30F5;
+  margin-left: 40%;
+}
+
+.bottom-container {
+  background-color: #0f1123;
+  padding: 20px 0 50px;
+}
+
+.footer-text {
+  color: white;
+}
+
+.footer-text-left {
+  color: white;
+  font-size: 1rem;
+  font-family: "Manrope";
+  font-style: normal;
+  text-decoration: none;
+}
+
+.brand-left{
+  position: absolute;
+  left: 2%;
+}
+
+.coffee {
+  position: absolute;
+  right: 2%;
+}
