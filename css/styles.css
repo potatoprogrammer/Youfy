@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.wrapper {
+  max-width: 920px;
+}
+
+.btn {
+  background-color: #8c30f5;
+  padding: 0.8rem 2.2rem;
+  font-size: 1.05rem;
+  font-family: inherit;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-bottom {
+  background-color: white;
+  color: #8c30f5;
+}
+
+.purble-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #8c30f5;
+}
+
+.purble-box .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.purble-box h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  background-color: black;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 48px;
+  font-weight: 500;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-width: 920px;
+  height: 72px;
+  margin: 0 auto;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 32px;
+}
+
+.links a {
+  font-weight: 600;
+  color: black;
+}
+
+.logo a {
+  font-weight: 600;
+  color: black;
+  font-size: 2rem;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  padding: 8rem 0;
+  margin: 0 auto;
+}
+
+.left {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.first-section h1 {
+  font-size: 3.7rem;
+  line-height: 4.6rem;
+}
+
+.first-section h2 {
+  font-size: 2.5rem;
+}
+
+.small-text {
+  margin: 1.5rem 0;
+}
+
+.left {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.small-text {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 980px) {
+  .navbar .links {
+    display: flex;
+    gap: 7rem;
+  }
+
+  .links {
+    order: 3;
+    gap: 7rem;
+  }
+  .links a {
+    font-size: 2.2rem;
+  }
+
+  .social-media {
+    visibility: hidden;
+  }
+
+  .logo a {
+    font-size: 3rem;
+    order: 0;
+  }
+
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    margin-top: 80px;
+    max-width: 72vw;
+    height: auto;
+    order: 1;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    max-width: 64vw;
+  }
+
+  .text h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .small-text {
+    font-size: 2.3rem;
+  }
+
+  .purble-box h1 {
+    color: white;
+    font-size: 3rem;
+  }
+
+  .btn {
+    background-color: #8c30f5;
+    padding: 1.5rem 4.2rem;
+    font-size: 2.3rem;
+    font-family: inherit;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+  }
+  .btn-bottom {
+    margin-top: 32px;
+    background-color: white;
+    color: #8c30f5;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: white;
+    margin: 0 48px;
+    font-weight: 500;
+    font-size: 2.3rem;
+  }
+}
